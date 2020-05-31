@@ -2,9 +2,10 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {}
+index = {"print_something": "00_core.ipynb",
+         "make_changes_in_colab": "00_core.ipynb"}
 
-modules = []
+modules = ["core.py"]
 
 doc_url = "https://ryanfras.github.io/vizdato/"
 
